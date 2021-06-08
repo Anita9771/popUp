@@ -7,7 +7,7 @@ close.addEventListener('click', () => {
 setTimeout (function(){
     let appear = document.getElementById("modal-container").style.display = "block";
     location.appear();
-}, 1000)
+}, 10000)
 
 const signed = document.getElementById("signUp");
 signed.addEventListener('click', (e) => {
